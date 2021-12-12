@@ -8,7 +8,6 @@ schemes = [
           , '9-Voltage Interval output', 'Origin'
         ]
 
-ali
 
 folder = 'Data-schemes/'
 for name in schemes[-1:]:
@@ -21,8 +20,6 @@ for name in schemes[-1:]:
     X = np.array(X)
     np.save(fld+'X', X)
 
-
-ali
 
 # functions that prepare data for networks
 def conv_data(x, lag=100,next = 1, trn_tst=(0.6, 0.8)):
